@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color:  hsl(217, 54%, 11%);
+    padding: 1.25rem;
+    justify-content: center;
+    border-radius: 0.1rem;
+    display: flex;
+    
+}
+.container{
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+
+    
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 56%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card .img{
+width: 100%;
+}
+.text{
+    padding: 12px;
+}
+.text h2{
+    color: white;
+}
+.text #p-ID{
+    color: lightblue;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.Equilibrum{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Equilibrum .details{
+    display: flex;
+}
+
+.Equilibrum .details p {
+    margin-left: 5px;
+}
+.Equilibrum .details #p-OD{
+    color: aqua;
+}
+.line{
+    margin-top: 20px;
+}
+.testimony{
+    margin-top: 20px;
+    height:30px ;
+    display: flex;
+}
+
+.testimony p {
+    margin-left: 10PX;
+}
