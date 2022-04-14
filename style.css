@@ -69,3 +69,9 @@ width: 100%;
 .testimony p {
     margin-left: 10PX;
 }
+/* media query */
+@media (max-width: 425px) {
+    .card{
+        width: 100%;
+    }
+}
